@@ -1,0 +1,55 @@
+.form-wrapper{
+    border-radius: 30px;
+}
+.form-wrapper label{
+    font-weight: bold;
+}
+.errors li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+.errors ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width:768px){
+    .form-wrapper .text-right{
+        text-align: center !important;
+    }
+    .form-wrapper .btn-primary{
+        display: block;
+        margin: o auto;
+    }
+}
+.login-box{
+    width: 160px;
+    height: 50px;
+    background: #fff;
+    color: #fff;
+    top: 5%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 10px;
+}
+.login-box .avatar{
+    width: 175px;
+    height: 130px;
+    position: absolute;
+    top:20% ;
+    right: 5%;
+    transform: translate(12px, 3px);
+}
+body{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-5%);
+    margin: 0;
+    padding: 0;
+    background: url(../images/pexels-adrien-olichon-3137052.jpg) no-repeat center top;
+    background-size: cover;
+    height:100hv;
+}

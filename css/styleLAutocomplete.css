@@ -1,0 +1,47 @@
+strong {
+    color: black;
+}
+#p_nombre{
+    border: 1px solid #e0e0e0;
+    padding:5px 18px;
+    color: #616161;
+    background: #fff;
+    box-shadow: none !important;
+    width: 100%;
+    font-size: 0.85em;
+    font-weight: 300;
+    height: 40px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    outline:none;
+}
+.lista-autocompletar-items{ 
+    color: #ccc;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none ;
+    z-index: 99;
+
+    top: 100%;
+    left: 20px;
+    right: 0;
+    width: 100%;
+}
+.lista-autocompletar-items div{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+
+}
+.lista-autocompletar-items div:hover{
+    background-color: dodgerblue;
+}
+.autocompletar-active{
+    background-color: dodgerblue;
+    color: #a1caff;
+}
+.autocompletar-active strong{
+    background-color: dodgerblue;
+    color: #fff;
+}

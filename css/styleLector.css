@@ -1,0 +1,36 @@
+.ocultartd{
+    display: none;
+}
+.listaAutocompletarNombres{
+    color: #ccc;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    z-index: 99;
+
+ 
+}
+strong{
+    color: black;
+}
+.listaAutocompletarNombres div{
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+
+}
+
+.listaAutocompletarNombres div:hover{
+    background-color: dodgerblue;
+
+}
+
+.autocompletarActivo{
+    background-color: dodgerblue !important;
+    color: #a1caff;
+}
+
+.autocompletarActivo strong{
+    color: #fff;
+}
